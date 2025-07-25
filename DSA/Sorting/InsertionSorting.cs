@@ -18,7 +18,7 @@ namespace DSA.Sorting
                 int key = list[i];
                 int j = i - 1;
 
-                // Shift elements of arr[0..i-1] that are greater than key
+                // Shift elements of Lists that are greater than key
                 while (j >= 0 && list[j] > key)
                 {
                     list[j + 1] = list[j];
