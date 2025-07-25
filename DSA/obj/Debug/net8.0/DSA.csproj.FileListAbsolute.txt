@@ -1,0 +1,14 @@
+D:\xPreparation\Projects\DSA\DSA\DSA\bin\Debug\net8.0\DSA.exe
+D:\xPreparation\Projects\DSA\DSA\DSA\bin\Debug\net8.0\DSA.deps.json
+D:\xPreparation\Projects\DSA\DSA\DSA\bin\Debug\net8.0\DSA.runtimeconfig.json
+D:\xPreparation\Projects\DSA\DSA\DSA\bin\Debug\net8.0\DSA.dll
+D:\xPreparation\Projects\DSA\DSA\DSA\bin\Debug\net8.0\DSA.pdb
+D:\xPreparation\Projects\DSA\DSA\DSA\obj\Debug\net8.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+D:\xPreparation\Projects\DSA\DSA\DSA\obj\Debug\net8.0\DSA.AssemblyInfoInputs.cache
+D:\xPreparation\Projects\DSA\DSA\DSA\obj\Debug\net8.0\DSA.AssemblyInfo.cs
+D:\xPreparation\Projects\DSA\DSA\DSA\obj\Debug\net8.0\DSA.csproj.CoreCompileInputs.cache
+D:\xPreparation\Projects\DSA\DSA\DSA\obj\Debug\net8.0\DSA.dll
+D:\xPreparation\Projects\DSA\DSA\DSA\obj\Debug\net8.0\refint\DSA.dll
+D:\xPreparation\Projects\DSA\DSA\DSA\obj\Debug\net8.0\DSA.pdb
+D:\xPreparation\Projects\DSA\DSA\DSA\obj\Debug\net8.0\DSA.genruntimeconfig.cache
+D:\xPreparation\Projects\DSA\DSA\DSA\obj\Debug\net8.0\ref\DSA.dll
