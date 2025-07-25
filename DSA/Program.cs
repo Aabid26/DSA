@@ -9,7 +9,9 @@ foreach (int i in list)
     Console.Write(i+"\t");
 }
 
-var sortedList =BubbleSorting.Instance.sort(list);
+//var sortedList =BubbleSorting.Instance.sort(list);
+var sortedList =SelectionSorting.Instance.sort(list);
+
 
 Console.WriteLine("\nAfter Sorting\n");
 foreach (int i in sortedList)
