@@ -2,7 +2,7 @@
 Demostrating Data Structure and Algorithm Concepts
 
 # Sorting Algorithm
-Bubble Sort
+Bubble Sort  
 Selection Sort
 Insertion Sort
 Merge Sort
