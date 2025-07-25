@@ -12,7 +12,9 @@ foreach (int i in list)
 //var sortedList =BubbleSorting.Instance.sort(list);
 //var sortedList =SelectionSorting.Instance.sort(list);
 //var sortedList = InsertionSorting.Instance.sort(list);
-var sortedList = QuickSorting.Instance.sort(list);
+//var sortedList = QuickSorting.Instance.sort(list);
+var sortedList = MergeSorting.Instance.sort(list);
+
 
 Console.WriteLine("\nAfter Sorting\n");
 foreach (int i in sortedList)
