@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Comoon_Coding_Question.Array_Operations
+namespace DSA.Common_Coding_Question.Array_Operations
 {
     public class SubArray
     {
