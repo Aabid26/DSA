@@ -1,12 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using DSA.Comoon_Coding_Question.Array_Operations;
-using DSA.Comoon_Coding_Question.String_Manipulation;
+using DSA.Common_Coding_Question.Array_Operations;
+using DSA.Common_Coding_Question.Linked_Lists;
+using DSA.Common_Coding_Question.Linked_Lists.Singly_Linked_List;
+using DSA.Common_Coding_Question.String_Manipulation;
 using DSA.Sorting;
 
 Console.WriteLine("Program Started....\n");
 #region Code_Practise
 
-    #region String_Manipulation
+#region String_Manipulation
 //        string input = "Aabid";
 //        string input1 = "Madam";
 //        string input2 = "121";
@@ -19,21 +21,31 @@ Console.WriteLine("Program Started....\n");
 #endregion
 
 #region Array_Operations
-int[] arr = { 1, 2, 3, 4, 5 };
-int[] arr2 = { };
-int[] arr3 = { 49};
-int[] arr4 = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
-Console.WriteLine($"Input Array: {String.Join(",",arr4)} \n");
+//int[] arr = { 1, 2, 3, 4, 5 };
+//int[] arr2 = { };
+//int[] arr3 = { 49};
+//int[] arr4 = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+//Console.WriteLine($"Input Array: {String.Join(",",arr4)} \n");
 
-Console.WriteLine($"SubArray with Maximum sum is : {String.Join(",", SubArray.WithMaximumSum(arr4))}");
-//Console.WriteLine($"\nMamimum number present : {Maximum_Element.Find(arr)}");
-//Console.WriteLine($"\nOutput Array:\n");
-//int[] output = ArrayReverse.Reverse(arr3);
-//foreach (int i in output)
-//{
-//    Console.Write(i + "\t");
-//}
+//Console.WriteLine($"SubArray with Maximum sum is : {String.Join(",", SubArray.WithMaximumSum(arr4))}");
+////Console.WriteLine($"\nMamimum number present : {Maximum_Element.Find(arr)}");
+////Console.WriteLine($"\nOutput Array:\n");
+////int[] output = ArrayReverse.Reverse(arr3);
+////foreach (int i in output)
+////{
+////    Console.Write(i + "\t");
+////}
 
+#endregion
+#region Linked List 
+var list = new SinglyLinkedList();
+list.InsertAtEnd(10);
+list.InsertAtEnd(20);
+list.InsertAtEnd(30);
+list.InsertAtEnd(-20);
+list.InsertAtEnd(-40);
+Console.WriteLine($"\nElements in Linked List: {list.PrintList()}");
+Console.WriteLine($"\nMiddle Element is : {FindMiddleElement.GetElement(list.head)}");
 #endregion
 
 #endregion
