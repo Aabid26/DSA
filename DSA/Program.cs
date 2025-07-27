@@ -10,8 +10,8 @@ string input2 = "121";
 string input3 = "geekSskeeg";
 Console.WriteLine("Input String: "+input);
 //string output = StringReverse.ProcessReverse(input);
-Console.WriteLine($" Is { input3} Palindrome? : {IsPalindrome.Check(input3)} ");
-
+//Console.WriteLine($" Is { input3} Palindrome? : {IsPalindrome.Check(input3)} ");
+Console.WriteLine($"The occurance of m in {input1} : {Character_Occurance.Count(input1, 'm')} ");
 //Console.WriteLine("Output String: "+output);
 
 #endregion
