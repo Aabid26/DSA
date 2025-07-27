@@ -22,12 +22,11 @@ Console.WriteLine("Program Started....\n");
 int[] arr = { 1, 2, 3, 4, 5 };
 int[] arr2 = { };
 int[] arr3 = { 49};
-Console.WriteLine("Input Array: \n");
-foreach (int i in arr3)
-{
-    Console.Write(i + "\t");
-}
-Console.WriteLine($"\nMamimum number present : {Maximum_Element.Find(arr3)}");
+int[] arr4 = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+Console.WriteLine($"Input Array: {String.Join(",",arr4)} \n");
+
+Console.WriteLine($"SubArray with Maximum sum is : {String.Join(",", SubArray.WithMaximumSum(arr4))}");
+//Console.WriteLine($"\nMamimum number present : {Maximum_Element.Find(arr)}");
 //Console.WriteLine($"\nOutput Array:\n");
 //int[] output = ArrayReverse.Reverse(arr3);
 //foreach (int i in output)
