@@ -1,18 +1,41 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using DSA.Comoon_Coding_Question.Array_Operations;
 using DSA.Comoon_Coding_Question.String_Manipulation;
 using DSA.Sorting;
 
 Console.WriteLine("Program Started....\n");
 #region Code_Practise
-string input = "Aabid";
-string input1 = "Madam";
-string input2 = "121";
-string input3 = "geekSskeeg";
-Console.WriteLine("Input String: "+input);
-//string output = StringReverse.ProcessReverse(input);
-//Console.WriteLine($" Is { input3} Palindrome? : {IsPalindrome.Check(input3)} ");
-Console.WriteLine($"The occurance of m in {input1} : {Character_Occurance.Count(input1, 'm')} ");
-//Console.WriteLine("Output String: "+output);
+
+    #region String_Manipulation
+//        string input = "Aabid";
+//        string input1 = "Madam";
+//        string input2 = "121";
+//        string input3 = "geekSskeeg";
+//        Console.WriteLine("Input String: "+input);
+//        //string output = StringReverse.ProcessReverse(input);
+//        //Console.WriteLine($" Is { input3} Palindrome? : {IsPalindrome.Check(input3)} ");
+//        Console.WriteLine($"The occurance of m in {input1} : {Character_Occurance.Count(input1, 'm')} ");
+//        //Console.WriteLine("Output String: "+output);
+#endregion
+
+#region Array_Operations
+int[] arr = { 1, 2, 3, 4, 5 };
+int[] arr2 = { };
+int[] arr3 = { 49};
+Console.WriteLine("Input Array: \n");
+foreach (int i in arr3)
+{
+    Console.Write(i + "\t");
+}
+Console.WriteLine($"\nMamimum number present : {Maximum_Element.Find(arr3)}");
+//Console.WriteLine($"\nOutput Array:\n");
+//int[] output = ArrayReverse.Reverse(arr3);
+//foreach (int i in output)
+//{
+//    Console.Write(i + "\t");
+//}
+
+#endregion
 
 #endregion
 
